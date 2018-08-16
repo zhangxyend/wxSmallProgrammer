@@ -1,0 +1,23 @@
+<template name="cell">
+     <view class='contents'>
+     <!--first  -->
+      <view class='celltitle'>
+      <image src='{{obj.icon}}' class='icon'></image> 
+      <text class='celltext'> {{obj.date}}</text>
+    </view>
+    <!--secound  -->
+     <view>
+        <image src='{{obj.conImage}}' class='contentImage'   class='conImage'></image>
+     </view>
+     <!--third  -->
+    <view class='textz'>
+       <text class='nei'>{{obj.content}}</text>
+    </view>
+    <!--four  -->
+    <view class='end' >
+    <text>浏览</text>
+    <text>转发</text>
+    </view>
+    <!--five  -->
+    </view> 
+</template>  

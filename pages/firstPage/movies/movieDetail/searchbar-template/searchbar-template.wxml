@@ -1,0 +1,8 @@
+<template name="search">
+  <view class='searchbar'>
+    <icon type='search' size="20" color="#405f80" class="icon"></icon>
+    <input type='text' placeholder='请输入电影名称' class='inputtext' placeholder-class='placeholder' bindfocus='focus' bindchange="change" value="{{inputTxt}}" bindinput="bindKeyInput"></input>
+    <icon wx:if="{{isShowView}}" type='cancel' size="20" class="cancel" catchtap='backView'></icon>
+
+  </view>
+</template>

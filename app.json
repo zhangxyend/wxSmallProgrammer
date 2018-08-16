@@ -1,0 +1,37 @@
+{
+  "pages":[
+   
+    "pages/firstPage/firstPage",
+    "pages/firstPage/newDetail/newDetail",
+    "pages/logs/logs",
+    "pages/firstPage/movies/movie",
+    "pages/firstPage/movies/movieDetail/movieDetail",
+    "pages/index/index"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/firstPage/firstPage",
+      "text":"新闻"
+    },
+    {
+      "pagePath": "pages/firstPage/movies/movie",
+      "text":"电影"
+    }
+    ],
+    "selectedColor": "#ffffff",
+    "color": "#000000",
+    "backgroundColor": "#405f80",
+    "borderStyle": "white",
+    "position": "bottom"
+
+  }
+}

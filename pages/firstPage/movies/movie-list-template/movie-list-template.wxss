@@ -1,0 +1,36 @@
+@import "../star-template/star-template.wxss";
+@import "../face-template/face-template.wxss";
+
+
+.movie-list-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background: white;
+}
+
+.movie-top {
+  margin: 5px;
+  flex-direction: row;
+  position: relative;
+}
+
+.movie-left {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.movie-right {
+  font-size: 14px;
+  color: blue;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  margin-top: -7px;
+}
+
+.mgrMovie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

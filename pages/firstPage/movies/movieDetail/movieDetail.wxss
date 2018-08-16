@@ -1,0 +1,13 @@
+@import "../star-template/star-template.wxss";
+@import "../face-template/face-template.wxss";
+@import "searchbar-template/searchbar-template.wxss";
+.detail-content{
+
+   margin: 20rpx ;
+   height: 1300rpx;
+
+}
+.detail-mid-content{
+  float: left;
+  margin: 10rpx 18rpx;
+}

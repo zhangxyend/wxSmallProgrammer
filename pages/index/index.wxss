@@ -1,0 +1,37 @@
+.image{
+  width: 138rpx;
+  height: 193rpx;
+  border-radius: 20rpx;
+}
+
+.contain{
+ /* background-color: #ccc; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.top{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 150rpx;
+}
+.bottom{
+  margin-top: 200rpx;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border:1px solid greenyellow;
+  
+}
+.name{
+  margin-top: 100rpx;
+  color: red;
+}
+.wol{
+  line-height: 60px;
+  font-weight: bold;
+}
+page{
+  background: white;
+}

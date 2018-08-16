@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class='contain'>
+   <view class='top'>
+   <image src='/pages/images/icon.jpg' class='image'></image>
+   <text class='name'>xxx</text>
+   </view >
+   <view class='bottom' bindtap='tiaoru' >
+      <text class='wol'>wolcome to wx!</text>
+ </view>
+</view>

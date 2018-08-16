@@ -1,0 +1,16 @@
+.face-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.face-top {
+  width: 100px;
+  height: 150px;
+  margin: 5px;
+}
+
+.face-title {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 5px;
+}

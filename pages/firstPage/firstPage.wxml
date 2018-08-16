@@ -1,0 +1,25 @@
+<import src="item-template/item-template.wxml" />
+
+<view content>
+  <!--轮播图 -->
+  <swiper class='lun' indicator-dots='true' indicator-color='black' indicator-active-color='orange' autoplay='true' interval='2000' duration='1000' circular='true'>
+    <swiper-item>
+      <image src='/pages/images/icon.jpg'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src='/pages/images/page1.png'></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src='/pages/images/page1.png'></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 列表 -->
+  <block wx:for="{{sourceKey}}" wx:for-item="obj" wx:key="{{*this}}">
+    <view catchtap="pushNewDetail" data-index="{{index}}">
+      <template is="cell" data="{{obj}}" />
+    </view>
+  </block> 
+</view>

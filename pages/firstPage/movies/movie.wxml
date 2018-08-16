@@ -1,0 +1,8 @@
+<import src="../../../pages/firstPage/movies/movie-list-template/movie-list-template.wxml" />
+<view class='content'>
+
+<template is="movie-list" data="{{movies: nows,title: ntitle}}"/>
+<template is="movie-list" data="{{movies: wills,title: wtitle}}"/>
+<template is="movie-list" data="{{movies: top250s,title: ptitle}}"/>
+
+</view>

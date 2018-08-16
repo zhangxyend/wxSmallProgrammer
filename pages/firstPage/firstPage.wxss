@@ -1,0 +1,19 @@
+@import "item-template/item-template.wxss" ;
+
+page{
+  background: #ccc;
+}
+
+.lun{
+  width: 100%;
+  height: 386rpx;
+}
+image{
+   width: 100%;
+  height: 386rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  background: orange;
+}

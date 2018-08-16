@@ -1,0 +1,21 @@
+<view class='content'>
+  <view class=' content-top'>
+    <image class='top-image' src='../../images/page1.png'></image>
+    <image class='audio' src='../../images/icon.jpg'></image>
+  </view>
+  <view class='sub-title'>
+    <image class='icon' src='../../images/icon.jpg'></image>
+
+    <text class='name'>胡歌</text>
+    <text class='date'>发布于   三天前</text>
+  </view>
+  <text class='title'>炉石传说好完吗？</text>
+  <view class='content-mid'>
+    <image catchtap='saveTap'  wx:if="{{status}}" src='../../images/icon.jpg' class='first'></image>
+    <image catchtap='saveTap' wx:else src='../../images/page1.png' class='first'></image>
+
+    <image src='../../images/icon.jpg' class='last'></image>
+    <view class='sub-line'></view>
+  </view>
+  <text class='content-text'>大手大脚哦啊圣诞快乐就阿里斯顿；就是大家的啦；技术的雷克萨斯啦大家阿克琉斯就打死了收到就阿里斯顿就是快乐简单；阿手机打；家的辣椒似的；啦时间到了；阿技术的辣椒大蒜较大；设计的卡拉胶收到啦；技术的；阿轲时间</text>
+</view>

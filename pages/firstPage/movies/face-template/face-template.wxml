@@ -1,0 +1,6 @@
+<template name="face">
+  <view class='face-content'>
+    <image class='face-top' src='{{movie.large}}'></image>
+    <text class='face-title'>{{movie.title}}</text>
+  </view>
+</template>

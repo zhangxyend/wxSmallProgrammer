@@ -1,0 +1,43 @@
+.contents{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: white;
+}
+.celltitle{
+  align-items: center;
+  margin: 5px 10px 5px 5px;
+}
+ .icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  vertical-align: middle; 
+  margin-right: 30px;
+  margin-left: 10px;
+  }   
+.celltext{
+  line-height: 30px;
+  font-size: 14.0px;
+  font-weight: bold;
+}
+.conImage{
+  width: 90%;
+  margin-left: 20px;
+}
+/* top,right,bottom,left */
+.textz{
+  margin: 5px 20px 5px 20px;
+}
+.nei{
+  color: #666;
+  font-size: 14.0px;
+  letter-spacing: 1rpx;
+}
+
+.end{
+   margin: 0px 20px ;
+   color: olivedrab;
+}

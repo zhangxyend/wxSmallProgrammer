@@ -1,0 +1,20 @@
+<import src="../star-template/star-template.wxml" />
+<import src="../face-template/face-template.wxml" />
+<template name="movie-list">
+  <view class='movie-list-content'>
+    <view class='movie-top'>
+      <text class='movie-left'>{{title}}</text>
+      <view catchtap='pushMovieDetail' data-title='{{title}}'>
+        <text class='movie-right'>更多 ></text>
+      </view>
+    </view>
+    <view class='mgrMovie'>
+      <block wx:for="{{movies}}" wx:for-item="movie">
+        <view class='movie-buttom'>
+          <template is="face" data="{{movie}}" />
+          <template is="star" data="{{score:movie.average,stars:movie.stars}}" />
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

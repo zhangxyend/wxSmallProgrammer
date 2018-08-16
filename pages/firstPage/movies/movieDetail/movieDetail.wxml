@@ -1,0 +1,28 @@
+<import src="../../../../pages/firstPage/movies/star-template/star-template.wxml" />
+<import src="../../../../pages/firstPage/movies/face-template/face-template.wxml" />
+<import src="searchbar-template/searchbar-template.wxml"/>
+
+<template is="search" data="{{isShowView:isShowView,inputTxt:inputTxt}}" />
+<scroll-view class='detail-content' scroll-x="false" scroll-y="true" 
+bindscrolltolower="loaddata" bindscrolltoupper="freshdata" enable-back-to-top="true"
+upper-threshold = "0px" lower-threshold	 = "0px"
+>
+<view wx:if="{{isShowView}}">
+<block wx:for="{{movies}}" wx:for-item="movie">
+<view class='detail-mid-content'>
+ <template is="face"  data="{{movie}}"/>
+ <template is="star"  data="{{score:movie.average,stars:movie.stars}}"/>
+</view>
+  </block>
+</view>
+<view wx:else >
+<block wx:for="{{movies}}" wx:for-item="movie">
+<view class='detail-mid-content'>
+ <template is="face"  data="{{movie}}"/>
+ <template is="star"  data="{{score:movie.average,stars:movie.stars}}"/>
+</view>
+  </block>
+</view>
+
+
+</scroll-view> 
